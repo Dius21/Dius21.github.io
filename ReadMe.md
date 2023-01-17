@@ -1,8 +1,8 @@
 <html>
     <head>
     <title>Viraj Dhara</title>
-    <style src:"styles: .css;"></style>
-    <script src:"scripts.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="script" href="scripts.js">
     </head>
     <body>
     My first personal web-page.
