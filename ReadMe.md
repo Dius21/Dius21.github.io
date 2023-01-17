@@ -8,9 +8,7 @@
     </head>
     <body>
         <h1>Placeholder_greeting</h1>
-        <p>My first personal web-page.
-        To be hosted on Github.io
-        Hope it helps future me get into building websites quicker</p>
+        <p>My first personal web-page.</p>
 
 
 
