@@ -1,27 +1,49 @@
-nav{
-    background-image: linear-gradient(45deg, rgb(155, 77, 228),rgb(132, 0, 255));
-}
-
-ul{
-    display: inline;
-}
-
-li{
-    position: fixed;             
-    display: inline;             
-    left: 70%;                   
-}                                
-                              
-a{                               
-    display: block;              
-    padding: 2%;                 
-}                                
-                              
-#nav-name{                       
-    font-size: 200%;             
-}                                
-                              
 body{
     background-image: linear-gradient(45deg, rgb(55, 255, 55), rgb(0, 255, 179));
 
 }
+
+nav{
+    display: block;
+    
+    background-image: linear-gradient(45deg, rgb(155, 77, 228),rgb(132, 0, 255));
+}
+
+ul{
+    display: flex;
+    height: auto;
+}
+
+#nav-name{                       
+    font-size: 300%;
+    justify-content: center;
+    height: 100%;   
+}  
+
+#placeholder{
+    justify-content: left;
+}
+                         
+a{                               
+            
+    padding: 2%;
+    float: right;
+    justify-content: right;
+}                        
+                              
+
+
+span{
+    text-align: center;
+}
+
+body{
+    display: block;
+}
+
+#bulk{
+    margin: auto;
+}
+
+
+
