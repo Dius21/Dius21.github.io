@@ -1,35 +1,37 @@
 body{
     background-image: linear-gradient(45deg, rgb(55, 255, 55), rgb(0, 255, 179));
-
 }
 
 nav{
-    display: block;
-    
+    display: flex;
+
     background-image: linear-gradient(45deg, rgb(155, 77, 228),rgb(132, 0, 255));
 }
 
 ul{
     display: flex;
+    justify-self: stretch;
     height: auto;
 }
 
-#nav-name{                       
+#nav-name{
     font-size: 300%;
     justify-content: center;
-    height: 100%;   
-}  
+    height: 100%;
+}
 
 #placeholder{
+    display: inline-block;
+    width: 110%;
     justify-content: left;
 }
-                         
-a{                               
-            
+
+a{
+
     padding: 2%;
     float: right;
     justify-content: right;
-} 
+}
 
 span{
     text-align: center;
