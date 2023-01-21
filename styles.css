@@ -18,9 +18,9 @@ nav{
 
 #nav-links{
     display: inline-block;
-    width: 400px;
-    
-    
+    width: 500px;
+    font-size: larger;
+    font-weight: bold;
 }
 
 a{
@@ -28,8 +28,29 @@ a{
 }
 
 #bulk{
-    margin: auto;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
+#container{
+    justify-self: center;
+    align-self: center;
+    
+}
+
+h3{
+    display: block;
+}
+
+h1{
+    display: block;
+    font-size: 600%;
+}
+
+p{
+    width: 500px;
+}
 
 
