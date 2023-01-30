@@ -28,7 +28,7 @@ a{
 }
 
 #bulk{
-    height: 80%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
